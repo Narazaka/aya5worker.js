@@ -1,0 +1,29 @@
+{
+	"name": "aya5worker.js",
+	"version": "0.0.1",
+	"description": "WebWorker SHIORI subsystem AYA5",
+	"keywords": ["web", "worker"],
+	"main": "aya5worker.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"coffee-script": ">= 1.9.0",
+		"aya5.js": "",
+		"nativeshiori": "",
+		"WorkerClientServer": "Narazaka/WorkerClientServer",
+		"NativeShioriWorker": "Ikagaka/NativeShioriWorker",
+		"encoding-japanese": "polygonplanet/encoding.js#master"
+	},
+	"author": {
+		"name": "narazaka",
+		"url": "http://narazaka.net/"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ikagaka/aya5worker.js.git"
+	}
+}

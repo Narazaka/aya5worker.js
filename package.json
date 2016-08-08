@@ -1,6 +1,6 @@
 {
   "name": "aya5worker.js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "WebWorker SHIORI subsystem AYA5",
   "keywords": [
     "web",

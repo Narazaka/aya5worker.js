@@ -14,7 +14,9 @@
     "build": "npm run build-fork && npm run build-webworker && npm run build-webworker-all",
     "build-fork": "makefork AYA5 aya5 aya5.js > aya5worker-fork.js",
     "build-webworker": "makewebworker AYA5 aya5 node_modules/aya5.js/aya5.js > aya5worker-webworker.js",
-    "build-webworker-all": "makewebworker all AYA5 aya5 node_modules/aya5.js/aya5.js > aya5worker-webworker-all.js"
+    "build-webworker-all": "makewebworker all AYA5 aya5 node_modules/aya5.js/aya5.js > aya5worker-webworker-all.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "aya5.js": "^0.2.0",
@@ -24,7 +26,8 @@
     "nativeshiori": "^2.3.0",
     "shioriloader": "^1.0.1",
     "single-file-worker": "^1.0.0",
-    "worker-client-server": "^0.3.1"
+    "worker-client-server": "^0.3.1",
+    "snyk": "^1.192.0"
   },
   "author": {
     "name": "narazaka",
@@ -34,5 +37,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Ikagaka/aya5worker.js.git"
-  }
+  },
+  "snyk": true
 }
